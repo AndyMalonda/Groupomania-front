@@ -1,10 +1,12 @@
 import "./App.css";
-import Login from "./components/Login";
+import Navbar from "./components/Navbar";
+// import Login from "./components/Login";
 import Post from "./components/Post";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Post />
     </div>
   );
